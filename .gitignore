@@ -1,0 +1,17 @@
+# Publish-only repo: track rendered site only
+*
+!.gitignore
+!docs/
+!docs/**
+
+# RStudio / Quarto / R artifacts (kept local)
+/.Rproj.user/
+/.Rhistory
+/.RData
+/.Ruserdata
+/.quarto/
+/.quarto-cache/
+/*_cache/
+/*_files/
+*.log
+
